@@ -1,7 +1,7 @@
-const StepMessage = ({ step, children }) => {
+const StepMessage = ({ steps, children }) => {
   return (
     <div className='message'>
-      <h3>Step {step}</h3>
+      <h3>Step {steps}</h3>
       {children}
     </div>
   );
